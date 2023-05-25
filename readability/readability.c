@@ -12,13 +12,10 @@ int main(void)
 {
     string str = get_string("Text: ");
 
-    // printf("%i letters\n", count_letters(str));
-    // printf("%i words\n", count_words(str));
-    // printf("%i sentences\n", count_sentences(str));
-
     float L = (count_letters(str) / (float) count_words(str)) * 100;
     float S = (count_sentences(str) / (float) count_words(str)) * 100;
-
+    
+    //Coleman-Liau index
     int index = round(0.0588 * L - 0.296 * S - 15.8);
     if (index < 1)
     {
