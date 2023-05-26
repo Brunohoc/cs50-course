@@ -4,7 +4,7 @@ This repository contains all the code I've written for this computer science cou
 
 ## Course Description
 
-This course is designed to provide a comprehensive introduction to computer science and programming using the C language. It covers fundamental concepts, data structures, algorithms, and problem-solving techniques. Students will gain hands-on experience through coding assignments and projects.
+The course is designed to provide a comprehensive introduction to computer science and programming using the C language. It covers fundamental concepts, data structures, algorithms, and problem-solving techniques. Students gain experience through coding assignments and projects.
 
 ## Course Details
 
